@@ -6,10 +6,13 @@ import winsound
 import tkMessageBox
 import keyboard
 
+# region Screen Settings. Testing Comment
 wn = turtle.Screen()
 wn.title("Monkey Hunting  V 1.0")
 wn.bgcolor("green")
 wn.bgpic("C:\Users\yasas\Desktop\Python\Space_Invaders_with_Classes\spaceImage.gif")
+
+# endregion " ",
 
 # region Registering the shapes
 turtle.register_shape("C:\Users\yasas\Desktop\Python\Space_Invaders_with_Classes\player.gif")
